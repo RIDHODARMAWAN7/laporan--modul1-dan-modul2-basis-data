@@ -3,51 +3,48 @@
 ### Kelas: XI RPL 2
 ### No: 20
 
->## Modul 1
+## MODUL 1
 
 ### 1.Install Xampp terlebih dahulu
 
 ![image](https://user-images.githubusercontent.com/92255670/190301531-fff847a3-2912-499c-90dc-98b112097e43.png)
 
+### 2.mengaktifkan mysql di xampp
 
-### 2.aktifkan mysql di xampp
+![image](https://user-images.githubusercontent.com/113566522/190327783-96053970-8cca-4aa4-9675-cb7d482946ea.png)
 
-![image](https://user-images.githubusercontent.com/92255670/190300828-bc545470-06b3-49e6-86c7-2a8d147eab8f.png)
+### 3.kemudian aktifkan mysql di cmd
 
-### 3.kemudian masuk ke command prompt 
+![image](https://user-images.githubusercontent.com/113566522/190328588-f27964a9-3b0c-45fb-a5eb-0dedcb6cbaa5.png)
 
-![image](https://user-images.githubusercontent.com/92255670/190300950-b3c6cf63-dc30-454a-88ea-089139b4a69b.png)
+### 4.lalu tulis syntaks ini
 
-### 4.Masuk direktori Mysql 
+![image](https://user-images.githubusercontent.com/113566522/190328958-52dab8ef-1563-495c-bb29-013228f52325.png)
 
+### 5.ketik "create database mahasiswa;"
 
-cd xampp/mysql/bin
+![image](https://user-images.githubusercontent.com/113566522/190329194-ca60a7ab-1e2e-4c88-b693-623a2dd4e1fb.png)
 
+## MODUL 2
 
-![image](https://user-images.githubusercontent.com/92255670/190303407-b4246b76-6ec3-4c79-af39-114aecb26db5.png)
+### 1.show database bersama table
 
-### 5.ketik syntaks berikut untuk masuk ke MariaDB
+![image](https://user-images.githubusercontent.com/113566522/190329617-97b7669e-9d22-4f39-80c0-4055b767cf40.png)
 
-mysql -u root
+### 2.melihat table
 
+![image](https://user-images.githubusercontent.com/113566522/190329759-8e1f5cdc-4cf4-42a2-a9e3-80ab9f42d3a9.png)
 
-![image](https://user-images.githubusercontent.com/92255670/190308626-753b3710-6ba3-4ce7-8e66-224a08e8780a.png)
+### 3.membuat create database mahasiswa
 
-*Di atas sudah bisa menuliskan query*
+![image](https://user-images.githubusercontent.com/113566522/190330830-17d6842f-46ef-4f26-b7cc-ce7778743e3f.png)
 
+### 4. jangan lupakan  syntaks ini untuk membuat database dan table
 
-
->## Modul 2
-- ### Cara melihat daftar database
-
-show databases;
-
-
-![image](https://user-images.githubusercontent.com/92255670/190309535-53e99a2d-071f-4b8a-a6b5-d7f9b6c4cd75.png)
-
-- ### Cara membuat database atau table 
-
-create database nama_database;
+![image](https://user-images.githubusercontent.com/113566522/190331205-85a01f6b-5bbc-4120-9699-2cbee719e800.png)
 
 
-create table nama_table(nama varchar(59)not null,no int(2)not null);
+
+
+
+
